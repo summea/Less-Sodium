@@ -1,0 +1,38 @@
+2012-03-16  summea  <>
+
+  * VERSION: Bumped version to 0.0.5.
+
+  * less-sodium.php: Comment text is now checked for spam keywords.
+
+2012-01-26  summea  <>
+
+  * VERSION: Bumped version to 0.0.4.
+
+  * less-sodium.php: Added log_spam() to keep track of spam catches.
+
+  * less-sodium.php: Added get_spam_count() to get spam catches total.
+
+  * less-sodium.php: Put file directories into constants.
+
+2012-01-18  summea  <>
+
+  * VERSION: Bumped version to 0.0.3.
+
+  * less-sodium.php: Added check for uppercase email addresses.
+
+  * less-sodium.php: Tidied up some documentation.
+
+  * wordlist: Updated.
+
+2012-01-17  summea  <>
+
+  * VERSION: Bumped version to 0.0.2.
+
+  * less-sodium.php: Changed out hard-coded wordlist; now using wordlist.txt.
+
+  * less-sodium.php: Actually prevent comment from being posted if spam by now
+  using check_comment_flood hook.
+
+  * less-sodium.php: Changed main function name to check_for_spam.
+
+  * wordlist.txt: Put word list in this file.
